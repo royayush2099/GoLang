@@ -16,4 +16,16 @@ func main() {
 	}
 	fmt.Println(result)
 
+	if 9%2 == 0 {
+		fmt.Println("Number is even")
+	} else {
+		fmt.Println("Number is odd")
+	}
+
+	if num := 3; num < 10 {
+		fmt.Println("NUmber is less than 10")
+	} else {
+		fmt.Println("Num is Not less than 10")
+	}
+
 }
